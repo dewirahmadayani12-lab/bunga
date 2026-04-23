@@ -12,3 +12,6 @@ Route::post('/welcome',[FormController::class, 'kirim']);
 Route::get('/master',function(){
     return view('layout/master');
 });
+Route::get('/about',function(){
+    return 'Selamat Datang';
+});
